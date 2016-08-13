@@ -1,0 +1,159 @@
+#headerDiv{
+	height:90px;
+	width:100%;
+	background:#4f99cb;
+	color:white;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:9999;
+	overflow:hidden;
+	font-size:60px;
+	border-radius:12px;
+	text-shadow:4px 4px #4f99cb;
+	box-shadow: 10px 10px 5px #888888;
+
+}
+
+
+.addUserClass,.issueBooksClass,.addBooksClass,.returnBooksClass,.logout{
+	float:left;
+	margin-top:3%;
+}
+#headerButtonHome{
+	float:right;
+	padding:2px;
+	margin-top:3%;
+}
+#UserLoginName{
+	font-size:20px;
+	margin-top:3%;
+	color:#fafffe;
+	margin-right:10px;
+	float:left;
+	
+}
+#tree{
+	height:85px;
+	width:100px;
+}
+body{
+	margin:0px;
+	padding:0px;
+	background:url('library.jpg');
+	background-size:cover;
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:black;
+}
+
+#searchNavBar{
+	padding:15px;
+	border-radius:15px;
+	background:rgba(242,242,242,0.5);
+	height:75%;
+}
+#topSearchDivRow
+{
+	margin-top:110px;
+}
+#searchBookDisplay{
+	height:75%;
+	background:rgba(242,242,242,0.6);
+	
+	padding:15px;
+}
+#adminCustomerLentDetails{
+	border-radius:15px;
+	background:rgba(242,242,242,0.5);
+	padding:15px;
+	margin-top:10px;
+	height:40%;
+	
+}
+#adminCustomerLentResult{
+	background:rgba(242,242,242,0.6);
+	border-top-left-radius: 15px;
+	border-top-right-radius:15px;
+	margin-top:10px;
+	padding:15px;
+	height:50%;
+	
+}
+#ReturnBookDisplay{
+	margin-left:50px;
+	margin-right:100px;
+	height:250px;
+	width:700px;
+	background: rgba(242,242,242,0.5);
+	padding: 15px;
+	border-radius: 15px;
+}
+tr td{
+	padding:10px;
+}
+.selectSearchType{
+	color:white;
+	background:green;
+	height:28px;
+	border-radius:4px;
+}
+.buttonHome form{
+	display:inline;
+}
+#customerSearch{
+	display:inline;
+	margin-top:5px;
+}
+
+.customerId{
+	margin-left:10%;
+	algin:center;
+	height:33px;
+}
+#lentBooksSearch{
+	margin-left:100px;
+}
+#lentBooksDisplay{
+	margin-left:50px;
+	background:rgba(242,242,242,0.5);
+	max-width:700px;
+	border-radius:15px;
+}
+select{
+	height:30px;
+	background:green;
+	color:cyan;
+}
+.clear{
+	clear:both;
+	
+}
+#searchTitle{
+	text-align:center;
+	padding:20px;
+}
+#searchDisplayButtonsDiv
+{
+	align:center;
+	background:rgba(242,242,242,0.6);
+	padding-left:20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius:15px;
+}
+#searchCustomerButtonsDiv
+{
+	align:center;
+	background:rgba(242,242,242,0.6);
+	padding-left:20px;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius:15px;
+}
+@media (max-width: 700px){
+	header{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	#setFixed{
+		width:100%;
+	}
+}
